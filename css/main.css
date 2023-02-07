@@ -22,10 +22,11 @@ body {
     flex-direction: column;
     gap: 50px; }
     body > div.wrapper > div.box {
-      width: 500px;
-      height: 410px;
+      width: 400px;
+      height: 600px;
       border-radius: 20px;
       background-color: #0a5e7e;
+      border: 2px solid black;
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -39,7 +40,7 @@ body {
         gap: 15px;
         padding: 20px; }
         body > div.wrapper > div.box > div:nth-of-type(1) > input {
-          width: 60%;
+          width: 80%;
           height: inherit;
           border-radius: 10px;
           font-size: 25px;
@@ -49,14 +50,14 @@ body {
             color: #39237f;
             font-size: 25px;
             font-weight: bold; }
-      body > div.wrapper > div.box > div:nth-of-type(2) {
+      body > div.wrapper > div.box > div:nth-of-type(2), body > div.wrapper > div.box div:nth-of-type(3) {
         width: inherit;
         height: 150px;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px; }
-        body > div.wrapper > div.box > div:nth-of-type(2) > button {
+        gap: 50px; }
+        body > div.wrapper > div.box > div:nth-of-type(2) > button, body > div.wrapper > div.box div:nth-of-type(3) > button {
           width: 100px;
           height: 100px;
           background-color: #a094c8;
@@ -65,21 +66,18 @@ body {
           font-weight: bold;
           border-radius: 10px;
           cursor: pointer; }
-          body > div.wrapper > div.box > div:nth-of-type(2) > button:hover {
+          body > div.wrapper > div.box > div:nth-of-type(2) > button:hover, body > div.wrapper > div.box div:nth-of-type(3) > button:hover {
             color: black;
             background-color: white; }
-      body > div.wrapper > div.box > div:nth-of-type(3) {
-        width: 70%;
+      body > div.wrapper > div.box > div:nth-of-type(4) {
+        width: inherit;
         height: 50px;
-        background-color: white;
         margin-top: 10px;
-        border-radius: 10px;
         display: flex;
         justify-content: center;
-        align-items: center;
-        border: 2px solid black; }
-        body > div.wrapper > div.box > div:nth-of-type(3) > h1 {
-          color: #39237f; }
+        align-items: center; }
+        body > div.wrapper > div.box > div:nth-of-type(4) > h1 {
+          color: white; }
     body > div.wrapper > div {
       width: 550px;
       height: 100px;
@@ -88,20 +86,20 @@ body {
       align-items: center;
       flex-direction: column;
       gap: 10px; }
-      body > div.wrapper > div > h1 {
-        color: white; }
-        body > div.wrapper > div > h1 > i {
-          color: white;
-          font-size: 40px;
-          padding-right: 15px; }
       body > div.wrapper > div > h2 {
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center; }
+        color: white; }
         body > div.wrapper > div > h2 > i {
           color: white;
           font-size: 40px;
           padding-right: 15px; }
       body > div.wrapper > div > h3 {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        body > div.wrapper > div > h3 > i {
+          color: white;
+          font-size: 40px;
+          padding-right: 15px; }
+      body > div.wrapper > div > h4 {
         color: white; }

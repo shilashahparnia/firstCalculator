@@ -25,10 +25,11 @@ body {
     flex-direction: column;
     gap: 50px;
     > div.box {
-      width: 500px;
-      height: 410px;
+      width: 400px;
+      height: 600px;
       border-radius: 20px;
       background-color: #0a5e7e;
+      border: 2px solid black;
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -42,7 +43,7 @@ body {
         gap: 15px;
         padding: 20px;
         > input {
-          width: 60%;
+          width: 80%;
           height: inherit;
           border-radius: 10px;
           font-size: 25px;
@@ -55,13 +56,14 @@ body {
           }
         }
       }
-      > div:nth-of-type(2) {
+      > div:nth-of-type(2), div:nth-of-type(3) {
         width: inherit;
         height: 150px;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        //background-color: blanchedalmond;
+        gap: 50px;
         > button {
           width: 100px;
           height: 100px;
@@ -77,18 +79,18 @@ body {
           }
         }
       }
-      > div:nth-of-type(3) {
-        width: 70%;
+      > div:nth-of-type(4) {
+        width: inherit;
         height: 50px;
-        background-color: white;
+        //background-color: white;
         margin-top: 10px;
-        border-radius: 10px;
+        //border-radius: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid black;
+        //border: 2px solid black;
         > h1 {
-          color: #39237f;
+          color: white;
         }
       }
     }
@@ -100,7 +102,7 @@ body {
       align-items: center;
       flex-direction: column;
       gap: 10px;
-      > h1 {
+      > h2 {
         color: white;
         > i {
           color: white;
@@ -108,7 +110,7 @@ body {
           padding-right: 15px;
         }
       }
-      > h2 {
+      > h3 {
         color: white;
         display: flex;
         align-items: center;
@@ -119,7 +121,7 @@ body {
           padding-right: 15px;
         }
       }
-      > h3 {
+      > h4 {
         color: white;
       }
     }
