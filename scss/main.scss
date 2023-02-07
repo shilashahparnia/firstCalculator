@@ -43,15 +43,15 @@ body {
         gap: 15px;
         padding: 20px;
         > input {
-          width: 80%;
+          width: 70%;
           height: inherit;
           border-radius: 10px;
           font-size: 25px;
           font-weight: bold;
-          padding-left: 30px;
+          padding-left: 20px;
           &::placeholder {
             color: #39237f;
-            font-size: 25px;
+            font-size: 22px;
             font-weight: bold;
           }
         }
@@ -62,7 +62,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        //background-color: blanchedalmond;
         gap: 50px;
         > button {
           width: 100px;
@@ -82,13 +81,10 @@ body {
       > div:nth-of-type(4) {
         width: inherit;
         height: 50px;
-        //background-color: white;
         margin-top: 10px;
-        //border-radius: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        //border: 2px solid black;
         > h1 {
           color: white;
         }
@@ -106,8 +102,8 @@ body {
         color: white;
         > i {
           color: white;
-          font-size: 40px;
-          padding-right: 15px;
+          font-size: 30px;
+          padding-right: 10px;
         }
       }
       > h3 {
@@ -117,8 +113,8 @@ body {
         justify-content: center;
         > i {
           color: white;
-          font-size: 40px;
-          padding-right: 15px;
+          font-size: 30px;
+          padding-right: 10px;
         }
       }
       > h4 {
